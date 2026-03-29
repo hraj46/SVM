@@ -45,7 +45,7 @@ This project aims to classify consumption into:
 * Algorithm: Support Vector Machine (Linear SVM)
 * Feature Scaling: StandardScaler
 * Balanced Dataset using Downsampling
-* Accuracy: ~XX% (update after running)
+* Accuracy: 85.71% (update after running)
 
 ---
 
