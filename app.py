@@ -12,11 +12,22 @@ st.write("Predict whether energy usage is Normal or High")
 
 # Inputs
 T1 = st.number_input("Living Room Temperature (T1)")
+# T1 = st.slider("Living Room Temperature (°C)", 15, 35, 22)
 RH_1 = st.number_input("Living Room Humidity (RH_1)")
 T2 = st.number_input("Kitchen Temperature (T2)")
 RH_2 = st.number_input("Kitchen Humidity (RH_2)")
 T_out = st.number_input("Outdoor Temperature (T_out)")
 RH_out = st.number_input("Outdoor Humidity (RH_out)")
+# st.subheader("Input Parameters")
+
+# T1 = st.number_input("Living Room Temperature (°C)", 0.0, 60.0, 22.0)
+# RH_1 = st.slider("Living Room Humidity (%)", 0, 100, 50)
+
+# T2 = st.number_input("Kitchen Temperature (°C)", 0.0, 60.0, 22.0)
+# RH_2 = st.slider("Kitchen Humidity (%)", 0, 100, 50)
+
+# T_out = st.number_input("Outdoor Temperature (°C)", -20.0, 60.0, 30.0)
+# RH_out = st.slider("Outdoor Humidity (%)", 0, 100, 60)
 
 # Predict
 if st.button("Predict"):
