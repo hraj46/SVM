@@ -12,7 +12,13 @@ It also includes a **Streamlit-based web application** for real-time predictions
 Energy consumption varies based on environmental conditions like temperature and humidity.
 This project aims to classify consumption into:
 
-* **Normal (< 300 Wh)**
+### **Normal (< 300 Wh)**
+* T1 = 20–23
+* RH_1 = 40–55
+* T2 = 20–23
+* RH_2 = 45–60
+* T_out = 20–28
+* RH_out = 40–60
 * **High (≥ 300 Wh)**
 
 ---
