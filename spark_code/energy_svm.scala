@@ -78,4 +78,8 @@ println("Confusion Matrix:")
 println(metrics.confusionMatrix) 
 println(s"Precision: ${metrics.weightedPrecision}") 
 println(s"Recall: ${metrics.weightedRecall}") 
-println(s"F1 Score: ${metrics.weightedFMeasure}") 
+println(s"F1 Score: ${metrics.weightedFMeasure}")
+
+// Class Distribution
+println("Class counts in test set:")
+test.groupBy("label").count().show()
