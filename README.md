@@ -131,9 +131,9 @@ RH_out = 70–90
 ## 🎯 Future Improvements
 
 * Add CSV upload for bulk prediction
-* Deploy on cloud (Streamlit Cloud / Render)
 * Add visualization dashboard
-* Model explainability (SHAP)
+* Integrate SHAP for model interpretability and explainability.
+* Extend the classification to multiple energy consumption levels (Low, Medium, High, Critical) for finer granularity.
 
 ---
 
