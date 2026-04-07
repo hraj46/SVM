@@ -46,10 +46,9 @@ This project aims to classify consumption into:
 * Feature Scaling: StandardScaler
 * Balanced Dataset using Downsampling
 * Accuracy: 85.71% (update after running)
-* Accuracy: XX%
-* Precision: XX
-* Recall: XX
-* F1 Score: XX
+* Precision: ~0.86
+* Recall: ~0.86
+* F1 Score: ~0.86
 
 ---
 
