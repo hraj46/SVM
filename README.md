@@ -48,7 +48,7 @@ This project aims to classify consumption into:
 * Accuracy: 85.71% (update after running)
 * Precision: ~0.86
 * Recall: ~0.86
-* F1 Score: 
+* F1 Score: ~0.86
 
 ---
 
