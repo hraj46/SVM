@@ -26,7 +26,8 @@ RH_out = st.number_input("Outdoor Humidity (RH_out)")
 # T2 = st.number_input("Kitchen Temperature (°C)", 0.0, 60.0, 22.0)
 # RH_2 = st.slider("Kitchen Humidity (%)", 0, 100, 50)
 
-
+# T_out = st.number_input("Outdoor Temperature (°C)", -20.0, 60.0, 30.0)
+# RH_out = st.slider("Outdoor Humidity (%)", 0, 100, 60)
 
 # Predict
 if st.button("Predict"):
