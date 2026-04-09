@@ -62,8 +62,10 @@ This project aims to classify consumption into:
 ---
 
 ## 📷 Application Preview
-
+```bash
 https://energy-svm.streamlit.app/
+```
+
 <img width="1911" height="966" alt="image" src="https://github.com/user-attachments/assets/7b837feb-6fb1-4809-a67b-3381938cd78c" />
 
 
